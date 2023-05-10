@@ -1,0 +1,452 @@
+body {
+    background-color: rgb(240, 214, 218);
+}
+
+header {
+    justify-content: space-between;
+    height: max-content;
+    background:linear-gradient(176.74deg, #A79B85 2.69%, #C2B59A 87.87%, #817766 125.7%);
+    display: flex;
+    padding: 15px;
+    margin: 0;
+    padding-top: 0;
+}
+
+header h1 {
+    font-size: 20px;
+    color: #2D221A;
+    font-style: normal;
+    font-family: sans-serif;
+    padding-top: 20px;
+}
+
+header input {
+    width: 130px;
+    height: 20px;
+    border: solid 0.5px;
+    border-radius: 5px;
+    padding-top: 0;
+    margin-top: 20px;
+    background-color: #f0e4db;
+    font-size: 10px;
+    padding-left: 10px;
+    border-color:  #A79B85;
+}
+
+header button {
+    border: solid 0.5px;
+    border-radius: 10px;
+    top: 0;
+    border-top: none;
+    padding-top: 7px;
+    background-color: #f0e4db;
+    color: rgb(112, 64, 64);
+    height: 40px;
+    width: 370px;
+    justify-content: center;
+}
+
+header a {
+    padding-top: 20px;
+    color: rgb(112, 64, 64);
+    text-decoration: none;
+}
+
+@media(max-width:800px){
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .stick {
+        display: none;
+    }
+}
+
+.main {
+    background-color: rgb(231, 213, 216);
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-family: sans-serif;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.main p {
+    color: rgb(112, 64, 64);
+    font-size: 28px;
+}
+
+.contact {
+    display: block;
+    margin-left: 60px;
+}
+
+.contact h1 {
+    color: #2D221A;
+    font-size: 40px;
+    padding-left: 50px;
+    font-weight: 400;
+}
+
+.contact p {
+    color: rgb(112, 64, 64);
+    font-family: sans-serif;
+}
+
+.contact a {
+    color: rgb(112, 64, 64);
+}
+
+.contact h3 {
+    float: right;
+    font-size: 20px;
+    color: rgb(112, 64, 64);
+    text-align: center;
+}
+
+@media (max-width:800px) {
+    .main {
+        margin: 0;
+    }
+
+    .PS {
+        display: none;
+    }
+}
+
+.news {
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+    background-color: rgb(197, 120, 133);
+    padding: 40px;
+    margin-top: 20px;
+}
+
+.news h1 {
+    color: #2D221A;
+}
+
+.news i {
+    color: rgb(112, 64, 64);
+}
+
+.news button {
+    width: 250px;
+    height: 50px;
+    border: solid 0.5;
+    border-radius: 10px;
+    background-color: rgb(212, 188, 156);
+    margin-top: 30px;
+}
+
+.news a {
+    color: white;
+    font-weight: 300;
+}
+
+.conteier {
+    display: block;
+    float: left;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+
+.buttons h1 {
+    color: #2D221A;
+    font-weight: 400;
+}
+
+.buttons button {
+    width: 250px;
+    height: 50px;
+    border: solid 0.5;
+    border-radius: 10px;
+    background-color: rgb(212, 188, 156);
+    margin-left: 80px;
+}
+
+.buttons a {
+    color: #2D221A;
+}
+
+
+.buttons-2 {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+
+.buttons-2 h1 {
+    color: #2D221A;
+    font-weight: 400;
+}
+
+.buttons-2 button {
+    width: 250px;
+    height: 50px;
+    border: solid 0.5;
+    border-radius: 10px;
+    background-color: rgb(212, 188, 156);
+    margin-left: 366px;
+}
+
+.buttons-2 a {
+    color: #2D221A;
+}
+.buttons-3 {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-left: 20px;
+}
+
+.buttons-3 h1 {
+    color: #2D221A;
+    font-weight: 400;
+}
+
+.buttons-3 button {
+    width: 250px;
+    height: 50px;
+    border: solid 0.5;
+    border-radius: 10px;
+    background-color: rgb(212, 188, 156);
+    margin-left: 268px;
+}
+
+.buttons-3 a {
+    color: #2D221A;
+}
+
+.block-right  {
+    display: block;
+    flex-direction: column;
+    float: right;
+    padding-left: 300px;
+}
+
+.block-right a {
+    font-size: 28px;
+    color: #2D221A;
+    border-top: solid #2D221A;
+}
+
+@media (max-width:800px){
+    .block-right {
+        display: block;
+        flex-direction: column;
+        float: right;
+        padding: 30px;
+    }
+
+    .buttons button {
+        margin: 5px;
+        width: max-content;
+    }
+
+    .buttons-2 button {
+        margin-left: 15px;
+        width: max-content;
+    }
+
+    .buttons-3 button {
+        margin-left: 15px;
+        width: max-content;
+    }
+}
+
+.post {
+    display: block;
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.post h1 {
+    font-size: 28px;
+    color: #2D221A;
+}
+
+.post p {
+    color: rgb(112, 64, 64);
+    font-size: 20px;
+}
+
+/* Форма обратной связи */
+
+.alls {
+    text-align: center;
+    display: block;
+}
+
+.alls h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.alls p {
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #44362b;
+}
+
+form {
+    margin-top: 100px;
+    display: block;
+    justify-content: center;
+}
+
+form h1 {
+    float: left;
+    margin-left: 200px;
+    color: #44362b;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+form input {
+    margin-left: 100px;
+    float: right;
+    margin-top: 20px;
+    max-width: 600px;
+    border: solid rgb(247, 243, 244);
+    border-radius: 10px;
+    border-width: 0.5px;
+    background-color: rgb(247, 243, 244);
+    margin-left: 10px;
+}
+
+.name {
+    margin-left: 30px;
+}
+
+.theme {
+    margin-left: 149px;
+    height: 170px;
+}
+
+.mail {
+    margin-left: 75px;
+}
+
+.code {
+    margin-left: 70px;
+}
+
+.alls button {
+    width: 250px;
+    height: 50px;
+    border: solid 0.5;
+    border-radius: 10px;
+    background-color: rgb(212, 188, 156);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+@media(max-width:950px) {
+    .alls {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    form input {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        float: left;
+        margin-right: 0;
+        width: 100%;
+        margin: 0;
+    }
+
+    form h1 {
+        margin: 0;
+        font-size: 100;
+    }
+}
+
+.sign-up h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #2D221A;
+}
+
+.sign-up p {
+    text-align: center;
+    color: #44362b;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.social {
+    display: block;
+    width: max-content;
+    margin-left: 50px;
+    z-index: 1;
+}
+
+.social h1 {
+    font-size: 30px;
+}
+
+.social h3 {
+    padding: px;
+    border-top: solid #2D221A;
+    border-bottom: solid #2D221A;
+    border-width: 1px;
+}
+
+.forum {
+    font-size: 30px;
+    display: block;
+    float: right;
+}
+
+.more {
+    margin: 40px;
+    text-align: center;
+    width: 100%;
+    margin-left: ;
+}
+
+.more h1 {
+    position: absolute;
+width: 828px;
+height: 39px;
+left: 100px;
+top: 317px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 39px;
+}
+
+.more h3 {
+    float: left;
+    padding-top: 100px;
+    font-size: 30px
+}
+
+.more p {
+    float: left;
+    font-size: 20px;
+}
